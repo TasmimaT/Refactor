@@ -17,9 +17,13 @@ public class Refactoring {
 		
 		// print details 
 		
+		printdetail(outstanding);
+
+	}
+
+	private void printdetail(double outstanding) {
 		System.out.println("name: " + name);
 		System.out.println("amount: " + outstanding);
-
 	}
 
 	private double calculation(Enumeration<E> e, double outstanding) {
